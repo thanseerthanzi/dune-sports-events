@@ -1,0 +1,83 @@
+.projects-section {
+  background-color: #ffffff;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.projects-section p {
+  color: #555;
+}
+
+.projects-section .carousel-inner {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.projects-section .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.projects-section .carousel-caption {
+  bottom: 20px;
+}
+
+.projects-section .carousel-caption h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.projects-section .carousel-caption p {
+  font-size: 0.9rem;
+  color: #ddd;
+}
+.project-slider-frame {
+  max-width: 900px; /* Adjust width as needed */
+  margin: 0 auto;
+  border: 5px solid #e0f2e9; /* Light green border for emphasis */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.project-slider-frame img {
+  height: 550px; /* Keep images uniform */
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 50%;
+}
+.project-item {
+  height: 350px; /* increase this number to make images bigger (e.g., 400px, 500px) */
+  transition: transform 0.3s ease;
+}
+
+.project-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* keeps image proportion, no stretching */
+  transition: transform 0.4s ease;
+}
+
+.project-item:hover img {
+  transform: scale(1.1); /* zoom on hover */
+}
+
+.project-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.project-item:hover .project-overlay {
+  opacity: 1;
+}
