@@ -17,12 +17,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', get_random_secret_key())
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 # Add Render URL or localhost
-ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'dune-sports-events.onrender.com',
-]
-
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "dunese.com", "www.dunese.com"]
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
