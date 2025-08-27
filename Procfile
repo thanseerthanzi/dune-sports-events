@@ -1,1 +1,1 @@
-web: gunicorn dune_sports.wsgi
+web: gunicorn dune_sports.wsgi:application
